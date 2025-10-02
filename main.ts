@@ -7,10 +7,9 @@
 
 basic.clearScreen()
 basic.showIcon
-
+// When A pressed cookie is added
 let cookiesPressed = 0
 input.onButtonPressed(Button.A, function () {
     cookiesPressed = cookiesPressed + 1
     basic.showNumber(cookiesPressed)
-
 })
