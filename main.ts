@@ -15,5 +15,6 @@ let cookiesPressed = 0
 input.onButtonPressed(Button.A, function () {
     cookiesPressed = cookiesPressed + 1
     basic.showNumber(cookiesPressed)
-
+    basic.pause(1000)
+    basic.clearScreen()
 })
